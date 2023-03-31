@@ -38,6 +38,17 @@ export const Formulario = () => {
                     </Form.Group>
                 </Col>
             </Row>
+
+            <Row className="justify-content-end mt-3">
+                <Col md={5}>
+                    <Button
+                        variant="success"
+                        className='text-uppercase w-100'
+                    >
+                        Buscar Bebidas
+                    </Button>
+                </Col>
+            </Row>
         </Form>
     </>
   )
