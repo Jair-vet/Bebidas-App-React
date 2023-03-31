@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { Container } from "react-bootstrap"
+import { Formulario } from "./components/Formulario"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>Bienvenido</h1>
+    <>
+      <header className="py-5 bg-success">
+        <h1>Buscador de Bebidas</h1>
+      </header>
+
+      <Container className="mt-5">
+        <Formulario />
+      </Container>
+    
+    </>
   )
 }
 
