@@ -1,6 +1,6 @@
 
-export const Bebida = () => {
+export const Bebida = ({bebida}) => {
   return (
-    <div>Bebida</div>
+    <div>{bebida.strDrink}</div>
   )
 }
