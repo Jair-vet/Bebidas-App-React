@@ -21,6 +21,7 @@ const BebidasProvider = ({children}) => {
         <BebidasContext.Provider
             value={{
                 consultarBebida,
+                bebidas,
             }}
         >
             {children}
