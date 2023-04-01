@@ -77,10 +77,10 @@ export const Formulario = () => {
                 </Col>
             </Row>
 
-            <Row className="justify-content-end mt-3">
+            <Row className="justify-content-center mt-3">
                 <Col md={5}>
                     <Button
-                        variant="success"
+                        variant="danger"
                         className='text-uppercase w-100'
                         type="submit"
                     >

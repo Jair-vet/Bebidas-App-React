@@ -10,7 +10,7 @@ function App() {
     <CategoriasProvider>
       <BebidasProvider>
         
-        <header className="py-5 bg-success">
+        <header className="py-5 bg-danger">
           <h1>Buscador de Bebidas</h1>
         </header>
 
